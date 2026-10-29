@@ -18,6 +18,11 @@ Checks a building against the bylaws while you design it, instead of at submissi
 ### autoelec — electrical layouts *(in development)*
 A first pass at the electrical layout of an Indian home, straight from the AutoCAD floor plan. It places switchboards, lights, fans and power points by room, checks each room's lighting level against its lux range and re-checks the wiring as you edit, then writes the layout and board schedules back into the drawing. Every placement comes from an editable rule, the designer refines it in AutoCAD or the browser dashboard, and a licensed electrical engineer signs off.
 
+### agent room — evacuation simulator *(open source)*
+See how people leave a building in an emergency, in the browser. Sketch a room, describe the scenario in plain language, and an LLM sorts the occupants into behavioural groups (children, staff, people with reduced mobility, people panicking) with research-backed movement parameters. They then evacuate in real time under Helbing's Social Force Model, and a density heatmap marks the choke points.
+
+[Source](https://github.com/PerSpec-Tech/Agent-Room)
+
 ### perspec matlib — material library *(in pilot)*
 A material library for architects and interior designers in India. Compare materials by look and cost inside SketchUp, then get the BOQ in one click.
 
@@ -32,7 +37,6 @@ A material library for architects and interior designers in India. Compare mater
 | Studio reference library | One searchable home for a studio's renders, references and photographs |
 | In-house renderer | Turns white-model views into finished visuals in a studio's house style, running locally |
 | Office to housing configurator | Turns an obsolete office building's dimensions into a residential conversion |
-| Evacuation simulator | A browser tool that simulates how people leave a building in an emergency |
 | Studio automations | Automates a studio's recurring work, after observing how the work actually moves |
 | Heat exposure mapping | Maps how much open sky is overhead along walking routes in New York City |
 | Data intelligence | Shopper-survey analysis for a retail operator: who the customers are and where they come from |
