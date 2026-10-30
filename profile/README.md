@@ -13,7 +13,7 @@ Perspec Technologies builds AI-powered tools for architecture, real estate and u
 ### datum. — your compliance checker
 Checks a building against the bylaws while you design it, instead of at submission. Live inside **Revit** and **AutoCAD**, with a **web app** for IFC models and DXF drawings. Every result cites its clause and page, and says how much to change. Rules are compiled from the bylaw text with NVIDIA Nemotron on Nebius Token Factory and approved by an architect; a deterministic rule engine, not the AI, decides pass or fail. Live today for Pune (UDCPR 2020, NBC 2016).
 
-[Try it](https://compliance.getperspec.com) · [Source](https://github.com/PerSpec-Tech/Datum-Compliance-Checker)
+[Try it](https://datum.getperspec.com) · [Source](https://github.com/PerSpec-Tech/Datum-Compliance-Checker)
 
 ### autoelec — electrical layouts *(in development)*
 A first pass at the electrical layout of an Indian home, straight from the AutoCAD floor plan. It places switchboards, lights, fans and power points by room, checks each room's lighting level against its lux range and re-checks the wiring as you edit, then writes the layout and board schedules back into the drawing. Every placement comes from an editable rule, the designer refines it in AutoCAD or the browser dashboard, and a licensed electrical engineer signs off.
